@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  TestPaytmInsider
 //
-//  Created by Sarveshwar Reddy on 16/09/20.
+//  Created by HarshaVardhan Reddy on 16/09/20.
 //  Copyright © 2020 HarshaReddy. All rights reserved.
 //
 
@@ -11,7 +11,6 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.

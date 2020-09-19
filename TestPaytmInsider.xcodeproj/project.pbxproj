@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		9DAC78852511FE700018269F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC78842511FE700018269F /* AppDelegate.swift */; };
 		9DAC78872511FE700018269F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC78862511FE700018269F /* SceneDelegate.swift */; };
-		9DAC78892511FE700018269F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC78882511FE700018269F /* ViewController.swift */; };
 		9DAC788C2511FE700018269F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DAC788A2511FE700018269F /* Main.storyboard */; };
 		9DAC788E2511FE730018269F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DAC788D2511FE730018269F /* Assets.xcassets */; };
 		9DAC78912511FE730018269F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DAC788F2511FE730018269F /* LaunchScreen.storyboard */; };
+		9DAC78992511FEC10018269F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC78982511FEC10018269F /* MainViewController.swift */; };
+		9DAC789B2511FEF60018269F /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC789A2511FEF60018269F /* AlbumDetailViewController.swift */; };
+		9DAC79292512928C0018269F /* Ablum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC79282512928C0018269F /* Ablum.swift */; };
+		9DAC792E251295F90018269F /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC792D251295F90018269F /* AlbumCollectionViewCell.swift */; };
+		9DAC793225129A430018269F /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC793125129A430018269F /* DataServices.swift */; };
+		9DD65D8B2514872300F9D82F /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DD65D8A2514872300F9D82F /* app_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9DAC78812511FE700018269F /* TestPaytmInsider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPaytmInsider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAC78842511FE700018269F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DAC78862511FE700018269F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DAC78882511FE700018269F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DAC788B2511FE700018269F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DAC788D2511FE730018269F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DAC78902511FE730018269F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DAC78922511FE730018269F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DAC78982511FEC10018269F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9DAC789A2511FEF60018269F /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
+		9DAC79282512928C0018269F /* Ablum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ablum.swift; sourceTree = "<group>"; };
+		9DAC792D251295F90018269F /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		9DAC793125129A430018269F /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		9DD65D8A2514872300F9D82F /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,60 @@
 		9DAC78832511FE700018269F /* TestPaytmInsider */ = {
 			isa = PBXGroup;
 			children = (
-				9DAC78842511FE700018269F /* AppDelegate.swift */,
-				9DAC78862511FE700018269F /* SceneDelegate.swift */,
-				9DAC78882511FE700018269F /* ViewController.swift */,
-				9DAC788A2511FE700018269F /* Main.storyboard */,
-				9DAC788D2511FE730018269F /* Assets.xcassets */,
-				9DAC788F2511FE730018269F /* LaunchScreen.storyboard */,
+				9DD65D972514D8CD00F9D82F /* Main */,
+				9DAC793125129A430018269F /* DataServices.swift */,
+				9DD65D942514D87500F9D82F /* Models */,
+				9DD65D952514D88F00F9D82F /* Views */,
+				9DD65D962514D8AE00F9D82F /* Controllers */,
+				9DD65D982514D8E400F9D82F /* Images */,
 				9DAC78922511FE730018269F /* Info.plist */,
 			);
 			path = TestPaytmInsider;
+			sourceTree = "<group>";
+		};
+		9DD65D942514D87500F9D82F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9DAC79282512928C0018269F /* Ablum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9DD65D952514D88F00F9D82F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DAC788A2511FE700018269F /* Main.storyboard */,
+				9DAC788F2511FE730018269F /* LaunchScreen.storyboard */,
+				9DAC788D2511FE730018269F /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DD65D962514D8AE00F9D82F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DAC78982511FEC10018269F /* MainViewController.swift */,
+				9DAC789A2511FEF60018269F /* AlbumDetailViewController.swift */,
+				9DAC792D251295F90018269F /* AlbumCollectionViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9DD65D972514D8CD00F9D82F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9DAC78842511FE700018269F /* AppDelegate.swift */,
+				9DAC78862511FE700018269F /* SceneDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9DD65D982514D8E400F9D82F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9DD65D8A2514872300F9D82F /* app_icon.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +182,7 @@
 			files = (
 				9DAC78912511FE730018269F /* LaunchScreen.storyboard in Resources */,
 				9DAC788E2511FE730018269F /* Assets.xcassets in Resources */,
+				9DD65D8B2514872300F9D82F /* app_icon.png in Resources */,
 				9DAC788C2511FE700018269F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +194,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DAC78892511FE700018269F /* ViewController.swift in Sources */,
+				9DAC792E251295F90018269F /* AlbumCollectionViewCell.swift in Sources */,
 				9DAC78852511FE700018269F /* AppDelegate.swift in Sources */,
+				9DAC789B2511FEF60018269F /* AlbumDetailViewController.swift in Sources */,
+				9DAC793225129A430018269F /* DataServices.swift in Sources */,
 				9DAC78872511FE700018269F /* SceneDelegate.swift in Sources */,
+				9DAC78992511FEC10018269F /* MainViewController.swift in Sources */,
+				9DAC79292512928C0018269F /* Ablum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +347,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JGAPP74Y74;
 				INFOPLIST_FILE = TestPaytmInsider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JGAPP74Y74;
 				INFOPLIST_FILE = TestPaytmInsider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
